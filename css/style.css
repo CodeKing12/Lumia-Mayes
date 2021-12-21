@@ -4087,7 +4087,7 @@ label{
 }
 
 .all-equipments .text {
-   background: rgba(0, 0, 0, 0.4);
+   background: rgba(0, 0, 0, 0.35);
    height: 100%;
    padding: 20px;
    color: white;
@@ -4239,3 +4239,111 @@ label{
 .whiten {
    color: white !important;
 }
+
+.logo-h1 {
+   margin: unset;
+   padding: unset;
+   font-size: 34px;
+}
+
+.logo-h1 span {
+   color: #A53A26;
+}
+
+@media (max-width: 375px) {
+   .logo-h1 {
+      font-size: 28px;
+   }   
+}
+
+#main-slide .item:before {
+   content: "";
+   position: absolute;
+   left: 0; right: 0;
+   top: 0; bottom: 0;
+   background: rgba(0,0,0,.52);
+ }
+
+ .img-box figure {
+    width: 80%;
+ } 
+
+ @media (max-width: 1200px) {
+    .resp-text {
+       display: none;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 990px) {
+    .disresponsive {
+       display: none;
+    }
+ }
+
+ #banner-area:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0, 0.52);
+ }
+
+ .ts-service-image-wrapper img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .sects {
+    display: none;
+ }
+
+ @media (max-width: 990px) {
+   .ts-service-box-img {
+      display: none;
+   }
+
+    .sects {
+       display:inline;
+       margin-right: 7px;
+    }
+
+    .ts-service-info {
+       margin-left: unset;
+    }
+
+    .ts-service-box {
+       margin-bottom: 40px !important;
+    }
+ }
+
+ @media (max-width: 767px) {
+    .ts-service-box {
+       width: 70%;
+       margin: 40px   auto;
+    }
+
+    .ts-service-image-wrapper img {
+       height: 70vh;
+    }
+
+    .sects {
+       display: none !important;
+    }
+
+    .ts-service-box-img {
+       display: inline;
+    }
+ }
+
+ @media (max-width: 550px) {
+    .ts-service-box {
+       width: 90%;
+    }
+
+    .ts-service-image-wrapper img {
+      height: 60vh;
+   }
+ }
