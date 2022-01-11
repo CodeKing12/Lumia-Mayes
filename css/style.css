@@ -4347,3 +4347,13 @@ label{
       height: 60vh;
    }
  }
+
+ .ts-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.ts-facts h3 {
+   font-size: 17px !important;
+}
