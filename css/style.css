@@ -4377,3 +4377,44 @@ label{
 .brochure button:hover a {
    color: #A53A26;
 }
+
+.logo {
+   display:flex;
+}
+
+.logo img {
+   width: 50px;
+   height: auto;
+}
+.logo-text {
+   margin-left: 8px;
+   text-align: left;
+}
+
+.logo-text h2 {
+   display: inline;
+   margin: unset;
+   font-size: 22px;
+}
+
+.logo-text h6 {
+   margin: unset;
+   display:inline;
+   margin-left: 6px;
+   font-size: 13px;
+}
+
+.logo-text h2 span {
+   color: #A53A26;
+}
+
+.logon {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+@media (max-width: 1000px) {
+   .logo-text {
+      margin-left: 14px;
+   }
+}
