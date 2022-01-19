@@ -4402,6 +4402,7 @@ label{
    display:inline;
    margin-left: 6px;
    font-size: 13px;
+   color: #A53A26;
 }
 
 .logo-text h2 span {
@@ -4416,5 +4417,32 @@ label{
 @media (max-width: 1000px) {
    .logo-text {
       margin-left: 14px;
+   }
+}
+
+.footer-go {
+   padding: unset;
+}
+
+.footer-go h2 {
+   color: white;
+}
+
+.footer-go h6 {
+   color: #A53A26;
+}
+
+@media (min-width: 1000px){
+   .footer-go h2, .footer-go h6 {
+      display: inline-block !important;
+   }
+
+   .footer-go .logo-const {
+      margin-left: 6px;
+   }
+
+   .footer-go .logo-text {
+      margin-top: auto;
+      margin-bottom: auto;
    }
 }
