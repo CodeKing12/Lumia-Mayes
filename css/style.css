@@ -4155,8 +4155,8 @@ label{
 
    .isotope-item {
 /*Re*/      float: left;
-      width: 28%;
-      margin-left: 2rem;
+      width: 32%;
+      /* margin-left: 2rem; */
       padding-right: 20px;
       margin-right: unset;
    }
@@ -4166,7 +4166,7 @@ label{
    }
 
    .begin {
-      margin-left: 3rem; 
+      /* margin-left: 1rem;  */
       margin-right: unset;
    }
 }
