@@ -37,7 +37,7 @@
 		font-size: 12px;
 	}
 
-	/* Projects */
+	/* Projects */o
 
 	.project-item-title {
     	font-size: 18px;
@@ -402,7 +402,7 @@
 	}
 
 	.logo img{
-		width: 180px !important;
+		/* width: 180px !important; */
 		background-size: contain !important;
 	}
 

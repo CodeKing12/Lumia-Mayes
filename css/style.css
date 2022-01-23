@@ -4394,7 +4394,7 @@ label{
 .logo-text h2 {
    display: inline;
    margin: unset;
-   font-size: 22px;
+   font-size: 20px;
 }
 
 .logo-text h6 {
@@ -4444,5 +4444,83 @@ label{
    .footer-go .logo-text {
       margin-top: auto;
       margin-bottom: auto;
+   }
+}
+
+.navbar-header-resp {
+   display: none;
+}
+
+.logon .logon-img {
+   width: 70px !important;   
+}
+
+@media (max-width: 580px) {
+   .navbar-header-resp {
+      display: block;
+   }
+
+   .navbar-header {
+      display: none;
+   }
+
+   .navbar-header-resp .logo {
+      flex-direction: column;
+      padding-top: 10px;
+   }
+
+   .navbar-header-resp .logon {
+      order: 2;
+      display: flex;
+      width: fit-content;
+   }
+
+   .navbar-header-resp .logon img {
+      width: 70px !important;   
+   }
+
+   .navbar-header-resp .logo-text {
+      text-align: center;
+      margin-left: unset;
+      margin-bottom: 7px;
+   }
+
+   .navbar-header-resp .logo h2 {
+      font-size: 17px;
+      display: inline !important;
+   }
+
+   .navbar-header-resp .logo h6 {
+      display: inline;
+      margin-right: 5px;
+   }
+
+   .home-header .navbar-toggle {
+      top: 0 !important;
+      margin-top: 10rem !important;
+      /* bottom: 27px;
+      margin-top: unset !important; */
+   }
+}
+
+@media (min-width: 536px) and (max-width: 580px) {
+   .home-header .navbar-toggle {
+      margin-top: 7rem !important;
+   }
+}
+
+@media (min-width: 580px) and (max-width: 767px) {
+   .home-header .navbar-toggle {
+      margin-top: 40px !important;
+   }
+}
+
+@media (max-width: 767px) {
+   .logon img {
+      width: 60px !important;
+   }
+
+   .logo-text h2 {
+      font-size: 18px;
    }
 }
