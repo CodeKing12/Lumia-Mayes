@@ -4565,3 +4565,7 @@ label{
       font-size: 18px;
    }
 }
+
+#facts .ts-facts img {
+   filter: grayscale(100);
+}
