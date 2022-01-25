@@ -4569,3 +4569,8 @@ label{
 #facts .ts-facts img {
    filter: grayscale(100);
 }
+
+.ceo-img {
+   width: 300px;
+   border: 4px solid #A53A26;
+}
