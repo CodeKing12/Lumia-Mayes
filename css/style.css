@@ -4574,3 +4574,7 @@ label{
    width: 300px;
    border: 4px solid #A53A26;
 }
+
+footer .logo-const {
+   margin-left: unset !important;
+}
