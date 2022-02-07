@@ -41,6 +41,27 @@
 /* Typography
 ================================================== */
 
+::-webkit-scrollbar {
+   width: 8px;
+   height: 8px
+}
+::-webkit-scrollbar-thumb {
+   cursor: pointer;
+   background: #A53A26;
+}
+::selection {
+   background-color: #A53A26;
+   color: #fff
+}
+-webkit-::selection {
+   background-color: #A53A26;
+   color: #fff
+}
+::-moz-selection {
+   background-color: #A53A26;
+   color: #fff
+}
+
 body{
    background:#fff;
    color: #7c7c7c;
@@ -4577,4 +4598,21 @@ label{
 
 footer .logo-const {
    margin-left: unset !important;
+}
+
+.show-client {
+   background-color: #363636;
+}
+
+.all-clients {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+   .all-clients div {
+      display: flex;
+      width: fit-content !important;
+      max-width: 33%;
+   }
 }
