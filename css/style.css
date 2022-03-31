@@ -4616,3 +4616,9 @@ footer .logo-const {
       max-width: 33%;
    }
 }
+
+.rotate-it {
+   transform: rotate(270deg);
+   width: 30px;
+   margin: 0 15px;
+}
